@@ -1,0 +1,36 @@
+body{font-family: Arial, Helvetica, sans-serif;}
+header{font-family: Arial, Helvetica, sans-serif;
+background-color: blue;
+color:lightblue;
+display:flex;
+align-items: center;
+}
+nav{color:aliceblue;}
+header>img{color:white;
+max-width: 10rem;
+}
+.about{background-color:blue ;}
+.menu{background-color: blue;}
+h2{font-size: 2rem;
+color:aliceblue;
+margin-left: 1rem;}
+h3{color:lightskyblue;
+font-size:1.5rem;
+margin-left: 25rem;}
+h4{color:lightskyblue;
+font-size:1.3rem;}
+p{color:white;
+font-size:1rem;}
+article{color:white;
+font-size:1.2rem;
+margin-left: 1rem;
+margin-right:1rem;}
+h5{color:white;
+font-size:1.3rem}
+img{margin-left:1rem ;}
+
+
+
+nav{color:aliceblue;
+font-size:1.3rem;
+padding: 2rem;}
