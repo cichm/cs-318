@@ -1,36 +1,91 @@
-body{font-family: Arial, Helvetica, sans-serif;}
-header{font-family: Arial, Helvetica, sans-serif;
-background-color: blue;
-color:lightblue;
-display:flex;
-align-items: center;
-}
-nav{color:aliceblue;}
+header {background-color: #20719e;
+color: #60bcef;
+font-family: "athleas", serif;
+font-weight: 700;
+font-style: normal;
+font-size: 20pt;
+display: flex;
+align-items: center;}
+nav:hover{color:#c4eef2;}
+  nav{background-color: #20719e;
+text-align: center;
+color:#c4eef2;}
 header>img{color:white;
 max-width: 10rem;
 }
-.about{background-color:blue ;}
-.menu{background-color: blue;}
-h2{font-size: 2rem;
-color:aliceblue;
+.about{background-color:#20719e ;}
+.menu{background-color: #20719e;}
+h2{font-size: 28pt;
+color:#c4eef2;
 margin-left: 1rem;}
-h3{color:lightskyblue;
-font-size:1.5rem;
-margin-left: 25rem;}
-h4{color:lightskyblue;
-font-size:1.3rem;}
-p{color:white;
-font-size:1rem;}
-article{color:white;
-font-size:1.2rem;
+h3{color:#60bcef;
+font-size:21pt;
+}
+h4{color:#60bcef;
+font-size:14pt;}
+p{color:#f1f2f2;
+font-size:8pt;}
+article{color:#f1f2f2;
+font-size:8pt;
 margin-left: 1rem;
-margin-right:1rem;}
-h5{color:white;
-font-size:1.3rem}
+margin-right:1rem;
+text-align: center;
+}
+h5{color:#f1f2f2;
+font-size:10pt}
 img{margin-left:1rem ;}
-
-
-
-nav{color:aliceblue;
-font-size:1.3rem;
+#contact-info{color:#20719e;
+font-size:12pt;}
+h2,h3,h4,h5{font-family:"korolev", sans-serif;
+font-weight: 700;
+font-style: normal;}
+p,span,h6{font-family: "korolev", sans-serif;
+font-weight: 500;
+font-style: normal;}
+div, article, nav{font-family: "myriad-pro", sans-serif;
+font-weight: 400;
+font-style: normal;}
+nav{font-size:10pt;
 padding: 2rem;}
+div{font-size:6pt;
+color:#60bcef;}
+div{display: inline-block;
+}
+#about{display: block;
+    text-align: right;
+    margin-right:1rem;
+}
+section{margin-bottom: 1rem;}
+h5,p{margin-left: 1rem;}
+h4{text-align: center;}
+h6{color:#f1f2f2;
+text-align: center;
+font-size: 8pt;
+display:inline-block;
+margin-left: 1rem;
+margin-right: 1rem;
+}
+h3{text-align: center;}
+.story{max-width:20rem; }
+.contact-info{display:inline;}
+div,.contact-info{display:inline;}
+.im1, .im2, .im3{max-width:10.5rem;}
+.l1,.l2,.l3,.l4,.l5,.l6,.l7,.l8,.l9{max-width:2rem;}
+@media(min-width:1000px){
+article{font-size:28pt;}
+p,h6{font-size:14pt}
+header{font-size: 55pt;}
+h2{font-size: 48pt;}
+h3{font-size: 36pt;}
+h4{font-size:24pt;}
+h5{font-size: 18pt;}
+div{font-size: 18pt;}
+#contact-info{font-size: 40pt}
+nav{font-size: 18pt;}
+#about{text-align:left;}
+header>img{max-width:20rem;}
+.story{max-width: 50rem;}
+.im1,.im2,.im3{max-width:28rem;}
+.l1,.l2,.l3,.l4,.l5,.l6,.l7,.l8,.l9{max-width:5rem;}
+
+}
