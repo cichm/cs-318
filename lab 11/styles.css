@@ -24,7 +24,8 @@ font-size:21pt;
 h4{color:#60bcef;
 font-size:14pt;}
 p{color:#f1f2f2;
-font-size:8pt;}
+font-size:8pt;
+padding-bottom:.5rem;}
 article{color:#f1f2f2;
 font-size:8pt;
 margin-left: 1rem;
@@ -49,8 +50,7 @@ nav{font-size:10pt;
 padding: 2rem;}
 div{font-size:6pt;
 color:#60bcef;}
-div{display: inline-block;
-}
+div{display: inline-block;}
 #about{display: block;
     text-align: right;
     margin-right:1rem;
@@ -70,7 +70,8 @@ h3{text-align: center;}
 .contact-info{display:inline;}
 div,.contact-info{display:inline;}
 .im1, .im2, .im3{max-width:10.5rem;}
-.l1,.l2,.l3,.l4,.l5,.l6,.l7,.l8,.l9{max-width:2rem;}
+.l1,.l2,.l3,.l4,.l5,.l6,.l7,.l8,.l9{max-width:2rem;
+margin-bottom: -.5rem;}
 @media(min-width:1000px){
 article{font-size:28pt;}
 p,h6{font-size:14pt}
@@ -86,6 +87,6 @@ nav{font-size: 18pt;}
 header>img{max-width:20rem;}
 .story{max-width: 50rem;}
 .im1,.im2,.im3{max-width:28rem;}
-.l1,.l2,.l3,.l4,.l5,.l6,.l7,.l8,.l9{max-width:5rem;}
-
+.l1,.l2,.l3,.l4,.l5,.l6,.l7,.l8,.l9{max-width:5rem;
+margin-bottom: -1rem;}
 }
