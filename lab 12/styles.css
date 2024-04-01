@@ -1,30 +1,80 @@
-body{
-    padding: 5rem;
-    background-color: darkolivegreen;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+
+=======
+  body{  margin:0;
+    background-color: #18810f;
+    color:#fff;
+    font-family: "Montserrat", sans-serif;
 }
-th{
-    background-color: darkgreen;
-    color:white;
-}
-tr:nth-child(even){
-    background-color: #ffffe2;
-}
-tr:nth-child(odd){
-    background-color: #e0e0cb;
-}
-td,th{
-    padding:0.5rem;
-}
-thead>tr:first-child>th{
+header{
+    background-color: #000;
+    color: yellowgreen;
+    margin:0;
+    padding:1rem;
+    text-align: center;
     font-size: 2rem;
-    color:goldenrod;
+    font-family: 'Eater', cursive;
 }
-table{
-    border-spacing: 0;
+form>label{
+display:block;
+font-size: 1.5rem;
+margin:1rem 0 0.25rem;
 }
-tbody th{background-color: #023802;}
-tbody th:hover{background-color: #022502;}
-td, th{vertical-align: top;}
-td{border:1px solid #023502;}
-tbody tr:hover{background-color: #D8D8B6;}
+fieldset{
+font-size:1.5rem ;
+margin:1rem 0 0.25rem;
+border:3px solid yellowgreen;
+border-radius: .25rem;
+}
+form{background-color: rgb(0,0,0,0.9);
+padding:1rem 2rem;
+width:50rem;
+max-width:calc(90% - 4rem);
+margin:1rem auto;
+}
+input[type=text], [type=email],[type=date], [type=number],[type=color]{
+font-size:1.25rem;
+width:calc(100% - 1rem);
+border:3px solid yellowgreen;
+padding:.5rem;
+border-radius: .25rem;
+}
+input[type=color]{
+    width:4rem;
+    height:4rem;
+    border-radius: 2rem;
+}
+input:focus[type=text],input:focus[type=email],input:focus[type=date],input:focus[type=number],input:focus[type=color]{
+    background-color: black;
+    color:white;
+    outline:none;
+}
+input[type=reset],[type=submit]{
+    font-family: 'Eater',cursive;
+    font-size: 1.5rem;
+    padding:1rem;
+    border-radius: 2rem;
+    border:3px solid yellowgreen;
+    margin:1rem 2rem 0 0;
+}
+input[type=submit]{
+    background-color: yellowgreen;
+}
+input[type=reset]{
+    background-color: black;
+    color:yellowgreen;
+}
+input:hover[type=submit]{
+    background-color: black;
+    color:yellowgreen;
+}
+input:hover[type=reset]{
+    color:black;
+    background-color: red;
+    border-color: red;
+}
+body{
+    background-image: url(images/eyeballs.svg);
+    background-size: 20%;
+}
+
+
