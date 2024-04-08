@@ -44,6 +44,7 @@ section>h2{position:relative;
 }
 .accordian{cursor:pointer;}
 article{display:none;}
+/*Remove . before article*/
 .article.show{display:block;}
 section span{transform:rotate(180deg);}
 span.rotate{transform:rotate(0);}
