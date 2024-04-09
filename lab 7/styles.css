@@ -36,8 +36,6 @@ padding:2rem 4rem;}
     nav{flex-basis: unset;}
     header{flex-wrap: nowrap;
     justify-content:space-between;
-align-content:flex-start;/*Change to align-items:flex-end; this will line up the buttons with the logo on the bottom.*/
-flex-direction:row;/*Delete this. you want the direction to be row.*/
 }
 
 .about-me{display:flex;}
