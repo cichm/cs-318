@@ -1,7 +1,7 @@
 body{
 font-family: 'Oswald', sans-serif;
 font-weight:300;
-marign:1rem;
+margin:1rem;
 }
 img{
 max-width:100%;
@@ -73,7 +73,7 @@ text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
 .headline p{
     background-color: rgba(0,0,0,0.6);
     padding: 1rem;
-    max-width: calc(100%-2rem);
+    max-width: calc(100% - 2rem);
 width: 20rem;
 }
 .button{
@@ -95,7 +95,7 @@ color:#fff;
 }
 .gallery{
 position: relative;
-width: calc(100%-4rem);
+width: calc(100% - 4rem);
 max-width: 100%;
 height: calc(100vw/1.778);
 }
@@ -118,7 +118,7 @@ color:#fff;
 text-shadow: 2px 2px 2px rgba(0,0,0,0.6);
 cursor: pointer;
 z-index:1;
-top: calc(50%-1.5rem)
+top: calc(50% - 1.5rem)
 }
 .left{left:.5rem;}
 .right{right:.5rem;}
@@ -212,7 +212,7 @@ padding: 2rem;
 }
 form{position: relative;}
 dialog p{margin:0;}
-@media(1000px){
+@media(min-width:1000px){
 .gallery img{
 max-width: 50vw;
 height: calc(50vw/1.778)
@@ -224,7 +224,7 @@ grid-template-columns: 2fr 1fr;
 gap:1rem;
 }
 .about h2{
-grid-column: ;
+grid-column:1/3;
 }
 .about img:nth-child(3){
 grid-area:2/2/4/3;
@@ -235,8 +235,6 @@ grid-area:4/2/6/3;
 section{
 max-width: 50rem;
 margin:1rem auto;
-}
-
-}
+}}
 
 
