@@ -100,6 +100,7 @@ main{
     grid-template-columns: 1fr 1fr;
     gap:1rem;
 }
+/*Your grid-column on the title and section:nth-child(2) should be 1/3. The 1/4 is why you are getting three columns instead of 2.*/
 .title{
     grid-column:1/4;
 }
