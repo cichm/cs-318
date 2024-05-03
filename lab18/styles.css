@@ -1,10 +1,11 @@
 body{background-color: #027547;
 font-family: Arial, Helvetica, sans-serif;}
 main{background-color: #FDF9D4;}
-h1{text-align: center;}
+h1{text-align: center;
+font-size: 36pt;}
 nav{color:white;
 font-size: 32pt;}
-nav:hover{color: orangered;
+nav:hover{outline-color: orangered;
 }
 header{ display: flex;
 justify-content: center;
@@ -15,6 +16,7 @@ grid-column: 2/4;
 grid-row:1/2;
 text-decoration: underline;
 text-align: center;
+
 }
 .love{
 height: 20rem;
@@ -29,24 +31,12 @@ font-size: 20pt;
 }
 .football{
 height: 30rem;
+margin-right: 1rem;
 }
-.about{
-display: grid;
-grid-template-columns: 103px 146px 93px 104px;
-grid-template-rows:75px 110px 69px 47px 328px 80px 184px;
+.ab{
+    display: flex;
 }
-.football{
-grid-column: 3/6;
-grid-row: 5/6;
-}
-h4{grid-column:1/3 ;
-    grid-row:4/6 ;
-    margin-left: 1rem;
-}
-.a{grid-column:2/4 ;
-    grid-row:2/2 ;
-    margin-left: 1rem;
-}
+
 .mcafrey{
 height: 13rem;
 }
@@ -91,4 +81,81 @@ p{margin-left:5rem ;
 margin-right: 5rem;
 font-size:15pt;}
 h3{font-size: 21pt;}
-@media(min )
+@media(min-width:1000px){
+h2{
+font-size: 32pt;
+}
+header img{
+max-width: 60rem;
+}
+.love{
+height:35rem ;
+margin-left: 3rem;
+}
+.story{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.ekler{
+height:27rem ;
+margin-bottom: 2rem;
+}
+.austin{
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
+align-items: center;
+}
+.home{
+display: flex;
+flex-wrap: wrap;
+}
+.mcafrey{
+height:23rem;
+margin-right: 1rem;
+}
+.reed{
+height:25rem;
+margin-bottom: 1rem;
+}
+ul{
+font-size: 18pt;
+}
+h3{
+font-size: 25pt;
+}
+.points{
+display: flex;
+justify-content: space-between;
+}
+.yards{
+display: flex;
+justify-content: space-between;
+}
+.j{
+margin-right: 1rem;
+}
+.play{
+text-align: left;
+}
+h3{margin-left: 1rem;}
+.white{
+max-height: 20rem;
+margin-right: 53rem;
+}
+.falcons{text-align: left; }
+   .team {
+    margin-right: 53rem;
+    }
+    .football{
+    height:50rem;
+    margin-bottom: 5rem;
+    margin-right: 5rem;
+    }
+    h4{
+    margin-left: 3rem;
+    margin-right: 20rem;
+    font-size:30pt ;
+    }
+}
