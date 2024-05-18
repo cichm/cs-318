@@ -68,14 +68,12 @@ animation:rise 10s ease-in 1 forwards;
 from{
 bottom:0;
 /*When using transform you can only have transform once on any selector. So instead you want to do transform:rotate(0) scale(1);*/
-transform: rotate(0);
-transform: scale(1);
+transform: rotate(0), scale(1);
 }
 To{
 bottom:75%;
 /*When using transform you can only have transform once on any selector. So instead you want to do transform:rotate(180deg) scale(2);*/
-transform: rotate(180deg);
-transform: scale(2);
+transform: rotate(180deg), scale(2);
 }
 }
 .rover:after{
